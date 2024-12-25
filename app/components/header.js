@@ -15,8 +15,8 @@ const biorhyme = BioRhyme_Expanded({
 const Header = () => {
   return (
     <div className='absolute w-full h-24 flex justify-around text-white'>
-      <div className={`flex items-center text-2xl ${biorhyme.className}`}>
-        <ul className='flex gap-5 h-[48px]'>
+      <div className={`flex items-center text-2xl ${biorhyme.className} mb-1`}>
+        <ul className='flex gap-5'>
           <li className='nav'>Home</li>
           <li className='nav'>Bio</li>
           <li className='nav'>Music</li>

@@ -25,5 +25,5 @@ body {
 }
 
 .nav {
-  @apply hover:text-yellow-600 cursor-pointer;
+  @apply h-[32px] opacity-70 hover:text-yellow-600 cursor-pointer hover:border-b hover:border-t rounded-md px-2 hover:opacity-100;
 }

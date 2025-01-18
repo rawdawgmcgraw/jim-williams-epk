@@ -27,3 +27,7 @@ body {
 .nav {
 	@apply h-[32px] opacity-70 hover:text-yellow-600 cursor-pointer rounded-md px-2 hover:opacity-100 hover:ease-in duration-150;
 }
+
+.video {
+	@apply rounded-xl shadow-md shadow-yellow-600/65;
+}

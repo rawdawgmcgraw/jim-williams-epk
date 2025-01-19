@@ -29,8 +29,8 @@ const Header = () => {
           <Link href='/' rel='preload'>
             <li className='nav'>Home</li>
           </Link>
-          <Link href='/bio' rel='preload'>
-            <li className='nav'>Bio</li>
+          <Link href='/upcoming' rel='preload'>
+            <li className='nav'>Shows</li>
           </Link>
           <Link href='/music' rel='preload'>
             <li className='nav'>Music</li>

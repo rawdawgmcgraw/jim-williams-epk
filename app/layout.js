@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0`}
       >
-        <div className='w-full h-screen p-2'>
+        <div className='w-[100vw] h-[100vh] bg-[url("/SiteBG.png")] bg-center bg-cover bg-no-repeat overflow-hidden m-0'>
           {children}
           <Header />
         </div>

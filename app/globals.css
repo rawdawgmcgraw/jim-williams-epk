@@ -32,6 +32,10 @@ body {
   @apply rounded-xl shadow-md shadow-yellow-600/65;
 }
 
-.shows {
+.upcoming {
   @apply w-2/5 bg-yellow-600/40 rounded-2xl;
+}
+
+.shows {
+  @apply w-full h-20 border border-black flex items-center justify-center;
 }
